@@ -1,14 +1,26 @@
 .main {
+  height: 100vh;
+  background: linear-gradient(160deg, #052648, #cee5f2);
+}
+
+.hero {
   min-height: 90vh;
   width: 100vw;
+  position: relative;
 }
 
 .header {
   display: flex;
   justify-content: space-between;
   width: inherit;
-  padding: 2rem 5rem;
-  height: 10vh;
+  padding: 1rem 5rem;
+  height: 5vh;
+}
+
+.header > * {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .navbar {

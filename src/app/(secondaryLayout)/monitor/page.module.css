@@ -1,0 +1,80 @@
+.main {
+  height: 100vh;
+  background: linear-gradient(160deg, #052648a9, #cee5f2a3);
+}
+
+.headerCenter {
+  text-align: center;
+  margin: 2rem 0;
+}
+
+.h1 {
+  font-size: 2rem;
+}
+
+.h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.flexCol {
+  display: flex;
+  flex-direction: column;
+  padding-top: 2rem;
+}
+
+.monitorSection {
+  min-height: 95vh;
+  width: 100vw;
+  padding: 2rem 5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card {
+  display: flex;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  max-width: 1400px;
+  background: #d8d8d8;
+}
+
+.cardItem {
+  flex: 1;
+}
+
+.relative {
+  position: relative;
+}
+
+.textGroup > * {
+  padding-top: 1rem;
+}
+
+.m1 {
+  margin: 3rem;
+}
+
+.p1 {
+  padding: 3rem;
+}
+
+.py1 {
+  padding: 2rem 0;
+}
+.my1 {
+  margin: 2rem 0;
+}
+.my2 {
+  margin: 0.5rem 0;
+}
+
+.my3 {
+  margin: 0.25rem 0;
+}
+
+.lowerText {
+  padding: 1rem 0;
+  font-size: 0.75rem;
+  font-style: italic;
+}

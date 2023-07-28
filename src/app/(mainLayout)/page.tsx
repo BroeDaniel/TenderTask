@@ -3,8 +3,9 @@ import HeroSection from '@/components/hero';
 
 export default function Home() {
   return (
-    <main className={styles.main}>
+    <section className={styles.hero}>
       <HeroSection />
-    </main>
+      <div style={{ height: '100vh' }}>This is a new section</div>
+    </section>
   );
 }
